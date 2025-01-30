@@ -92,8 +92,8 @@ Example: `Ins1-PC10_PE10-hycu-config.yaml`
          - 10.10.74.115  # Second IP for client network. Minimum two IPs for client network
      storage_network:
        network_name: 72-IPAM
-       dns: 10.10.72.115  # This is first IP for storage network, not actual dns server IP
-       vip: 10.10.72.116  # This is second IP for storage network 
+       dns: 10.10.72.115  # First IP for storage network, not actual dns server IP
+       vip: 10.10.72.116  # Second IP for storage network 
    ```
 
 4. **HYCU Controller (`hycu_controller`)**
