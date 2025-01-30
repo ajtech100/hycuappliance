@@ -1,0 +1,46 @@
+hycu_controller:
+  credentials:
+    password: admin
+    username: admin
+  dns_server: 8.8.8.8
+  domain: techlab.com
+  gateway: 10.10.74.1
+  hostname: hycudemo
+  image_name: hycu.qcow2
+  ip: 10.10.74.118
+  network_name: 74-IPAM
+  storage_container: hycu-container
+  subnet_prefix: '24'
+  vm_name: hycudemo
+hycu_target:
+  backup_streams: 3
+  bucket_name: newbucket1
+  compression: true
+  capacity_bytes: 5497558138880
+  user_name: moon
+  target_name: moon
+  user_email: moon@hynu.com
+  user_accesskey: L4c5_2tgfZRLowT4taF9pw-9rnQE8gon #Required for existing users
+  user_secretkey: TSW0j08q7ZIUZxpASMWX-orZoiMnRvvG #Required for existing users
+object_store:
+  client_network:
+    ips:
+    - 10.10.74.116
+    - 10.10.74.115
+    network_name: 74-IPAM
+  name: HycuDemo
+  num_worker_nodes: 3
+  storage_network:
+    dns: 10.10.72.115
+    network_name: 72-IPAM
+    vip: 10.10.72.116
+prism_central:
+  darksite_url: http://10.10.74.161/release/
+  pc_domain: prism-central.cluster.local
+  pc_ip: 10.10.72.110
+prism_element:
+  pe_ip: 10.10.72.208
+  cluster_name: irv-ntx-hyob
+
+
+  
