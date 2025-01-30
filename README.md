@@ -139,12 +139,12 @@ Example: `Ins1-PC10_PE10-hycu-config.yaml`
 The script offers two deployment approaches:
 
 1. **Zero-touch Deployment**
-   - Executes all steps automatically
+   - Executes all steps automatically - LCM darksite configuration, Object Store deployment, HYCU Controller setup, and HYCU target configuration
    - Best for fresh deployments
    - Provides continuous feedback
 
 2. **Interactive Deployment**
-   - Executes steps individually
+   - Executes steps individually - LCM darksite configuration, Object Store deployment, HYCU Controller setup, and HYCU target configuration
    - Better for troubleshooting
    - Allows selective execution
 
