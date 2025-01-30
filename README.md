@@ -16,6 +16,8 @@ This script automates the deployment of HYCU backup appliance in a Nutanix envir
 
 ## Directory Structure
 
+Place .py and .yaml files in the directory structure as below.
+
 ```
 hycu-deployment/
 ├── main.py                 # Main deployment script
