@@ -1,4 +1,4 @@
-# HYCU Deployment Script Documentation
+# HYCU Appliance Deployment Script Documentation
 
 ## Table of Contents
 - [Overview](#overview)
