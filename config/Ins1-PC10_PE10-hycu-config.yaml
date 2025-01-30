@@ -14,14 +14,14 @@ hycu_controller:
   vm_name: hycudemo
 hycu_target:
   backup_streams: 3
-  bucket_name: newbucket1
+  bucket_name: hycutarget
   compression: true
   capacity_bytes: 5497558138880
-  user_name: moon
-  target_name: moon
-  user_email: moon@hynu.com
-  user_accesskey: L4c5_2tgfZRLowT4taF9pw-9rnQE8gon #Required for existing users
-  user_secretkey: TSW0j08q7ZIUZxpASMWX-orZoiMnRvvG #Required for existing users
+  user_name: localuser
+  target_name: nutanixbucket
+  user_email: localuser@hycuappl.com
+  user_accesskey: L4c5_2tgfZRLowT4taF9pw-9rnQE8gon #Required for existing users, remove comment before use
+  user_secretkey: TSW0j08q7ZIUZxpASMWX-orZoiMnRvvG #Required for existing users, remove comment before use
 object_store:
   client_network:
     ips:
