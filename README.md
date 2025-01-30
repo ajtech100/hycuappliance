@@ -121,8 +121,8 @@ Example: `Ins1-PC10_PE10-hycu-config.yaml`
      backup_streams: 3
      compression: true
      capacity_bytes: 5497558138880
-     user_name: localuser
-     user_email: localuser@hycuappl.com
+     user_name: localuser # This is a local user. AD users will be supported in future.
+     user_email: localuser@hycuappl.com # Does not need to be real email. 
      user_accesskey: xxx  # Required for existing users, remove comment from config file
      user_secretkey: xxx  # Required for existing users, remove comment from config file
    ```
@@ -167,7 +167,7 @@ The script offers two deployment approaches:
 
 4. **HYCU Target Configuration**
    - Creates/validates bucket
-   - Manages access keys
+   - Manages access keys. No support for AD users. Script creates a local user.
    - Configures backup target on HYCU
 
 ## Error Handling
